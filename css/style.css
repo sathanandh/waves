@@ -1,32 +1,6 @@
-/*------------------------------------------------------------------
-
-    [Master Stylesheet]
-
-    Theme Name: Alpha | Personal vCard Template
-    Version: 1.0
-    Last change: 17/08/2017
-    Developer: LionCoders - http://www.lion-coders.com
-
--------------------------------------------------------------------*/
 
 
-/*------------------------------------------------------------------
 
-    [Table of contents]
-    
-    0. General Styles
-    1. Preloader
-    2. Home Styles
-    3. Menu Styles
-    4. Page Content
-    5. Name Block
-    6. About Block
-    7. Portfolio Block
-    8. Blog Block
-    9. Contact Block
-   10. Responsive
-
--------------------------------------------------------------------*/
 
 
 /* -------------------------------------------------------------------
@@ -109,6 +83,8 @@ h4 {
     line-height: 24px;
     margin-top: 0;
     margin-bottom: 0;
+    margin-bottom: 14px;
+    color: whitesmoke;
 }
 
 h5 {
@@ -125,18 +101,20 @@ h6 {
 }
 
 p {
-    margin: 0;
-    margin-bottom: 30px;
+    margin: 3;
+    margin-bottom: 0px;
+    text-align: justify;
 }
 
 ul {
     list-style: none;
     padding-left: 0;
+    color: wheat;
 }
 
 strong,
 small {
-    color: #fff7f7;
+    color: #dc3545;
 }
 
 /* Buttons */
@@ -157,7 +135,7 @@ a:not([href]):not([tabindex]) {
     transition: all .3s;
     position: relative;
     color: #FFF;
-    background-color: #333;
+    background-color: #13132c;
     z-index: 20;
     letter-spacing: 2px;
     overflow: hidden;
@@ -394,6 +372,11 @@ a:not([href]):not([tabindex]) {
     width: 100%;
     z-index: -1;
 }
+p {
+    margin: 3;
+    margin-bottom: 0px;
+    text-align: justify;
+}
 
 
 @-webkit-keyframes bgScroll {
@@ -421,7 +404,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgb(27, 27, 47);
     height: 100%;
     position: fixed;
     width: 100%;
@@ -835,7 +818,7 @@ h2.menu-item:after {
     overflow-y: scroll;
     top: 100%;
     left: 30%;
-    background: #2b3e4a4f;
+    background: #13132c;
     transition: opacity 0.7s ease-out;
     z-index: 1;
 }
@@ -884,19 +867,51 @@ h2.menu-item:after {
 }
 
 .block-content {
-    margin: 0 0 70px;
-    overflow: hidden;
+    margin: 0 0 5px;
 }
 
 .block-title {
     font-size: 24px;
     text-transform: uppercase;
-    color: #0b92a9;
+    color: #fbfbfb;
     padding-bottom: 16px;
-    border-bottom: 1px solid #ce3333;
+    border-bottom: 1px solid #3386ce;
     margin-bottom: 29px;
     font-weight: 600;
+    text-align: justify;
 }
+.block-title_work{
+    font-size: larger;
+    line-height: 32px;
+    margin-top: 57px;
+    margin-bottom: 0;
+    color :#ecedf3;
+    letter-spacing: 2px;
+}
+.work_content{
+
+
+}
+.abt_cont_logo2{height: 200px; width: 215px; display:inline-block;float: left;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: top center;}
+.abt_cont_logo3{height: 200px; width: 215px; display:inline-block;float: right;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: top center;}
+.abt_cont_logo4{height: 200px; width: 215px; display:inline-block;float: left;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: top center;}
+.abt_cont_logo5{height: 200px; width: 215px; display:inline-block;float: right;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: top center;}
+.abt_cont_logo6 {height: 200px; width: 215px; display:inline-block;float: left;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: top center;}
 
 /*-------------------------------------------------------------------
 
@@ -947,7 +962,7 @@ h2.menu-item:after {
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    padding: 0 30px;
+    padding: 0 120px;
 }
 
 .menu2 .name-block.reverse,
@@ -975,6 +990,16 @@ h2.menu-item:after {
     color: #FFF;
     margin-bottom: 10px;
     text-transform: uppercase;
+    letter-spacing: 2px;
+
+}.name-block-container h3
+{
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #FFF;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    padding-left: 20px;
 }
 
 .dark .name-block-container h1,
@@ -1535,6 +1560,11 @@ h4.package {
     opacity: 0;
     text-transform: uppercase;
     transition: all 0.6s;
+}
+p {
+    margin: 3px;
+    margin-bottom: 0px;
+    text-align: justify;
 }
 
 .portfolio-column:hover .portfolio-content h2 {
