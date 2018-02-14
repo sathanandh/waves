@@ -778,7 +778,7 @@ h2.menu-item:after {
 }
 
 .close-pop {
-    background-color: #F1F3F6;
+    background-color: #f8f9fa;
     cursor: pointer;
     line-height: 40px;
     height: 40px;
@@ -789,6 +789,8 @@ h2.menu-item:after {
     top:-60px;
     transition: all 0.7s;
     z-index: 1;
+    font-weight: 600;
+    color:#333;
 }
 
 .menu4 .close-pop {
