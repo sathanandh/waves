@@ -85,6 +85,7 @@ h4 {
     margin-bottom: 0;
     margin-bottom: 14px;
     color: whitesmoke;
+    padding-left: 53px;
 }
 
 h5 {
@@ -590,7 +591,7 @@ h2.menu-item:before {
     top: -40px;
     left: -20px;
     font-size: 14px;
-    transition: all 0.5s ease;
+   
 }
 
 h2.about.menu-item:before {
@@ -621,8 +622,7 @@ h2.menu-item:after {
     left: -20px;
     width: 70px;
     height: 1px;
-    background: #FFF;
-    transition: all 0.5s ease;
+    
 }
 
 .dark h2.menu-item:after {
@@ -1024,13 +1024,17 @@ h2.menu-item:after {
 .social {
     position: absolute;
     bottom: 15%;
+    padding-left: 15px;
 }
 
 .social li {
     display: inline-block;
-    margin-right: 2px;
+    margin-right: -38px;
     text-align: center;
+
+    padding-left: 49px;
 }
+
 
 .social a {
     border: 2px solid #FFF;
@@ -2547,8 +2551,7 @@ p {
         left: -20px;
         width: 70px;
         height: 1px;
-        background: #FFF;
-        transition: all 0.5s ease;
+        
     }
     .social {
         position: relative;
@@ -2652,8 +2655,7 @@ p {
         left: -20px;
         width: 70px;
         height: 1px;
-        background: #FFF;
-        transition: all 0.5s ease;
+        
     }
     .menu-block:hover h2.menu-item:before {
         top: -40px;
