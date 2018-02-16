@@ -844,7 +844,7 @@ h2.menu-item:after {
 
 .content {
     position: relative;
-    padding: 120px 70px 30px;
+    padding: 120px 46px 30px;
     height: auto;
     overflow: hidden;
 }
@@ -870,7 +870,7 @@ h2.menu-item:after {
 }
 
 .block-content {
-    margin: 0 0 5px;
+    margin: 0 -8px 11px;;
 }
 
 .block-title {
@@ -915,6 +915,13 @@ h2.menu-item:after {
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: top center;}
+.abt_cont_logo7 {height: 200px; width: 215px; display:inline-block;float: left;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: top center;}
+    a.open-project {
+    color: #007bff;
+}
 
 /*-------------------------------------------------------------------
 
@@ -1060,6 +1067,14 @@ h2.menu-item:after {
 .dark .social a {
     border: 2px solid #333;
     color: #333;
+}
+.inline-menu-container.showx {
+    top: -2px;
+    overflow-y: -webkit-paged-x;
+    
+}
+.block-content {
+    margin: 0px 10px 11px;
 }
 
 /*-------------------------------------------------------------------
@@ -1437,6 +1452,11 @@ h4.package {
     content: '';
     border-top: 1px solid #F1F3F6;
     width: 100%;
+}
+.inline-menu-container.showx {
+    top: 0px;
+    overflow-y: -webkit-paged-x;
+   
 }
 
 /*-------------------------------------------------------------------
@@ -2207,6 +2227,8 @@ p {
 }
 
 
+
+
 /*-------------------------------------------------------------------
 
                         10. RESPONSIVE
@@ -2437,7 +2459,7 @@ p {
         padding: 0 10px;
     }
     .content {
-        padding: 120px 50px 50px;
+        padding: 120px 45px 30px;
     }
 }
 
@@ -2485,7 +2507,9 @@ p {
 @media (max-width:980px) {
 
     .inline-menu {
-        margin-top: 5px;
+        margin-top: 2px;
+        overflow-x: scroll;
+    overflow-y: -webkit-paged-x;
     }
 
     .timeline:before,
@@ -2814,6 +2838,11 @@ p {
     .comment .col-sm-10 {
         width: 83.3333%;
     }
+    .inline-menu-container.showx {
+    top: -2px;
+    overflow-y: -webkit-paged-x;
+    left:-30px;
+}
 }
 
 @media (max-width:360px) {
@@ -2831,7 +2860,7 @@ p {
 
 @media (max-width:320px) {
 	.inline-menu {
-		margin-right: 0;
+		margin-right: 0px;
 	}
 	.inline-menu li {
 	    padding: 0 8px;
@@ -2856,7 +2885,13 @@ p {
     left: -181px;
 
 
+}
+.inline-menu-container.showx {
+    top: -2px;
+    overflow-y: -webkit-paged-x;
+    left: -1px;
 }}
+
 .fixLink{
     position: fixed;
     right: 2%;
