@@ -1,0 +1,119 @@
+
+            <section class="content">
+                    <div class="block-content">
+                        
+                        <i>“The proper artistic response to digital technology is to embrace it as a new window on everything that’s eternally human, and to use it with passion, wisdom, fearlessness and joy”</i> -Ralph Lombreglia
+                        <h3 class="block-title_work" style="color: #007bff">Description</h3>
+                          
+            <p>&nbsp;&nbsp;&nbsp;Is journalism your area of interest? 
+Are you a media geek and looking for a channel to deliver it?
+Here, <b>WAVES'18</b> giving you a chance through its <b>Online Events</b>.
+     </p>
+     
+        <h3 class="block-title_work" style="color: #007bff">Rules</h3><p><br><b>Intern Events</b><br>Internship is offered by our Media partner <b>Malai Murasu</b><br>1.&nbsp; Movie Review must be a self video with max time of 2 mins.<br>2.&nbsp;Promo Making on Sports theme with max time of 1 min.<br>3.&nbsp; Documentary on any Social awareness with max time of 1 min.<br>&nbsp;Decision by Channel jury is final.<br><b>General Online Events</b><br>1.&nbsp;Photo should be on any  Electrical theme based.<br>2.&nbsp;Meme should be on any Electrical theme based. <br>3.&nbsp;Dubsmash with only comedy dialogues for a max time of 1 min.<br>&nbsp;&nbsp;Winner is selected based on creativity and Likes received in Social Media.</p>
+            <h3 class="block-title_work" style="color: #007bff">Last Date </h3><p> March-7<br>&nbsp;&nbsp;Send your post to <b>onlineevents@waves.org.in</b></p><h3 class="block-title_work" style="color: #007bff">Contact</h3><p>Vishnupriya - +91 9790709266
+</p>
+
+                        
+              
+                        
+                    
+                 
+            </div>
+
+              </section>
+
+
+           <style>
+          
+  .close_holder{
+   
+    float: right;
+    font-size: 23px;
+    z-index: 20;
+    
+    text-align: center;
+    background-color: transparent;
+    color: crimson;
+   
+    width: 30px;
+    border-radius: 60px;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+            
+}
+
+.close-pop {
+    background-color: #ffffff;
+    cursor: pointer;
+    line-height: 40px;
+    height: 40px;
+    position: fixed;
+    text-align: center;
+    width: 69%;
+    right: 13px;
+    top:-60px;
+    transition: all 0.7s;
+    z-index: 1;
+}
+.close_holder{
+   
+    
+    float: right;
+    font-size: 23px;
+    z-index: 20;
+    
+    text-align: center;
+    background-color: transparent;
+    color: crimson;
+   
+    width: 30px;
+    border-radius: 60px;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+            
+}
+.reg_holder{
+}
+.reg_holder:hover{
+}
+.reg_inner div:first-child{
+      cursor: pointer;
+    box-shadow: 0px -10px 10px rgba(0,0,0,0.2);
+    
+}
+.reg_inner div:last-child{
+    background-color: #fbfbfb;
+    padding: 17px;
+    
+}.reg_holder{
+    position: absolute;
+    bottom: 0px;
+    z-index: 10;
+    left: -56px;
+    right: 55px;
+    background-color:rgba(249, 238, 238, 0);
+    padding: 10px;
+    text-align: end;
+    color: #191e23;
+    float: right;
+    font-size: 16px;
+    -webkit-padding-end: inherit;
+    
+}</style>
+<script>
+    $('.open-project').on('click', function() {
+        var projectUrl = $(this).attr("href");
+        $('.inline-menu-container').removeClass('showx');
+        $('.content-blocks.pop').addClass('showx');
+        $('.content-blocks.pop section').load(projectUrl)
+        return false;
+    });
+    $('#close-project').on('click', function() {
+        $('.content-blocks.pop').removeClass('showx');
+        $('.inline-menu-container').addClass('showx');
+        $('.content-blocks.pop section').empty();
+    });
+</script>
