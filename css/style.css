@@ -1,5 +1,6 @@
-
-
+.text-anim{
+	text-shadow: 0 0 3px #b7ca18;
+}
 
 .blinking{
 	animation:blinkingText 1s infinite;
